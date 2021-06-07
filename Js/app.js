@@ -1,41 +1,73 @@
 'use strick';
 
-let myName = prompt('What is my name?').toLowerCase();
-    if(myName === 'Laith' || myName === 'L') {
-    alert('You know my first name! ');
+let userName = prompt('Please Introduce yourself')
+alert(`Hello ` +  userName + `, welcome to my personal website, it is time to know me`)
+
+let myCoffee = prompt('Do i love Coffee with sugar?').toLowerCase();
+    if(myCoffee === 'yes' || myCoffee === 'y') {
+    alert('Correct! You know how i like my Coffee!');
 }
-//console.log(myName)
+//console.log(myCoffee)
 
-else if (myName !== 'Laith' || myName !== 'L') {
-    alert ('Please know my name! Enter Laith or L : ))');
-}   
+else if (myCoffee === 'no' || myCoffee === 'n') {
+    alert('Oh No! I can not drink coffee with sugar!');
+}   else{
+    alert('Please type (Yes) or (Y) or (No) or (N)');
+}
 
-let favSport = prompt('Since you know my name, what is my favorite sport?').toLowerCase();
-    if(favSport === 'Boxing' || favSport === 'Box') {
-        alert('Good Job Friend! you know my favorite sport');
+
+
+let favSport = prompt('Since you know how I drink my Coffee, is Boxing my favorite sport?').toLowerCase();
+    if(favSport === 'yes' || favSport === 'y') {
+        alert('Good Job my Friend! you know my favorite sport');
     } 
     //console.log(favSport)
 
-    else if (favSport !== 'Boxing' || favSport !== 'Box'){
-        alert('It is ok, enter Boxing or Box:)');
-    }
+    else if (favSport === 'no' || favSport === 'n'){
+        alert('It is ok, Boxing is my favorite sport!:)');
+    } else {
+            alert('Please type (Yes) or (Y) or (No) or (N)');
+        }
+        
     
-    let favCar = prompt('Since you know my favorite sport, what is my favorite car?').toLowerCase();
-        if (favCar === 'Porsche' || favCar === 'Carrera') {
+    let favCar = prompt('Since you know my favorite sport, is Porsche my favorite car?').toLowerCase();
+    //console.log(favCar)
+
+        if (favCar === 'yes' || favCar === 'y') {
             alert('Nice!! You know my favorite car now!')
         }
-        else if (favCar !== 'Porsche' || favCar !== 'Carrera') {
-            alert('Enter Porsche or Carrera to know my favorite car')
+        else if (favCar === 'no' || favCar === 'n') {
+            alert('Ooops! Porsche is my favorite car')
             
+        } else {
+            alert('Please type (Yes) or (Y) or (No) or (N)');
+        }
+  
+        let myAge = prompt('Now it is time to know my age, was I born in 1991?').toLowerCase
+        //console.log(myAge)
+        if (myAge === 'yes' || myAge === 'y') {
+            alert('Good guess, am I older than you?')
+        }
+        
+
+        else if (myAge === 'no' || myAge === 'n'){
+            alert('Tough luck! Yes I was born in 1991!')
         }
 
-    let yearBorn = prompt('Now it is time to guess in which year i was born!').toLowerCase
-    if (yearBorn === 1991 || yearBorn === 91) {
-        prompt('Good guess, am I older than you?')
-        //console.log(yearBorn)
+        else{
+            alert('Please type (Yes) or (Y) or (No) or (N)')
+        }
+
+  //  let yearBorn = prompt('Now it is time to know my age, was I born in 1991?').toLowerCase
+    // if (yearBorn === 'yes' || yearBorn === 'y') {
+       // alert('Good guess, am I older than you?')
         
-    }
-    else if (yearBorn !== 1991 || yearBorn !== 91) {
-        alert('Hmm, bad luck! enter 1991 or 91 =)')
-    }
-        
+  //  }
+    //console.log(yearBorn)
+    //else if (yearBorn === 'no' || yearBorn === 'n') {
+     //   alert('Tough luck! Yes i was born in 1991!')
+    //}
+      //  else {
+   // alert('Please type (Yes) or (Y) or (No) or (N)');
+//} 
+
