@@ -58,6 +58,9 @@ let favSport = prompt('Since you know how I drink my Coffee, is Boxing my favori
             alert('Please type (Yes) or (Y) or (No) or (N)')
         }
 
+        alert(`Hello ` +  userName + `, now you know me a little bit better, see you soon`)
+        git
+
   //  let yearBorn = prompt('Now it is time to know my age, was I born in 1991?').toLowerCase
     // if (yearBorn === 'yes' || yearBorn === 'y') {
        // alert('Good guess, am I older than you?')
