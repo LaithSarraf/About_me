@@ -46,16 +46,16 @@ let favSport = prompt('Since you know how I drink my Coffee, is Boxing my favori
         let myAge = prompt('Now it is time to know my age, was I born in 1991?').toLowerCase
         //console.log(myAge)
         if (myAge === 'yes' || myAge === 'y') {
-            alert('Good guess, am I older than you?')
+            alert('Good guess, am I older than you?');
         }
         
 
         else if (myAge === 'no' || myAge === 'n'){
-            alert('Tough luck! Yes I was born in 1991!')
+            alert('Tough luck! Yes I was born in 1991!');
         }
 
-        else{
-            alert('Please type (Yes) or (Y) or (No) or (N)')
+        else {
+            alert('Please type (Yes) or (Y) or (No) or (N)');
         }
 
         alert(`Hello ` +  userName + `, now you know me a little bit better, see you soon`)
