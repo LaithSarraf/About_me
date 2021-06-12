@@ -1,0 +1,18 @@
+header img {
+    width: 100px;
+}
+header nav ul{
+    float: right;
+    background: seashell;
+}
+header nav ul li {
+    display: inline;
+    padding: 10px;
+    float: right;
+    border: 5px slategray solid;
+}
+main h1{
+    text-decoration: solid;
+    font-size: 50px;
+    font-weight: 700;
+}
