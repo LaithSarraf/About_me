@@ -1,6 +1,10 @@
 header img {
     width: 100px;
 }
+header{
+    background-color: grey;
+    color: black;
+}
 header nav ul{
     float: right;
     background: seashell;
@@ -13,6 +17,30 @@ header nav ul li {
 }
 main h1{
     text-decoration: solid;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+main ol{
+    color: black;
+    background-color: burlywood;
+    text-align: center;
+}
+
+main ul{
+    color: crimson;
+    background-color: black;
+    text-align: center;
+}
+
+footer{
+    color: chartreuse;
+    background-color: cornflowerblue;
+    text-align: right;
+}
+
+p{
+    color:darkgreen;
+    background-color: black;
+    text-align: center;
 }
